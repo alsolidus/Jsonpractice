@@ -9,58 +9,58 @@
     tools:context="com.chscommandcenter.jsonpractice.MainActivity">
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/chs"
-        android:id="@+id/imageView"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        app:srcCompat="@drawable/chs" />
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="60dp"
         android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
 
         <Button
-            android:text="Facility Info"
+            android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button2"
-            android:onClick="parsejson"
-
-            android:layout_below="@+id/textView"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="30dp" />
+
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="30dp"
+            android:onClick="parsejson"
+            android:text="Facility Info" />
 
         <Button
-            android:text="Get Info"
+            android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button"
-            android:onClick="getjson"
             android:layout_alignBaseline="@+id/button2"
             android:layout_alignBottom="@+id/button2"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:onClick="getjson"
+            android:text="Get Info" />
 
         <Button
-            android:text="Contact Info"
+            android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button3" />
+            android:text="Contact Info" />
 
         <Button
-            android:text="Device Inventory"
+            android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button4" />
+            android:text="Device Inventory" />
 
 
     </LinearLayout>
@@ -75,7 +75,6 @@
         android:layout_marginTop="26dp"
         android:onClick="incUpdate"
         android:text="Active Major Incident Updates"
-        android:textAppearance="@style/TextAppearance.AppCompat.Button"
-         />
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
 </RelativeLayout>

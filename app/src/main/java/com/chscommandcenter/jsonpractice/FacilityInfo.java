@@ -1,12 +1,10 @@
 package com.chscommandcenter.jsonpractice;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 public class FacilityInfo extends AppCompatActivity {
 
@@ -16,8 +14,7 @@ public class FacilityInfo extends AppCompatActivity {
     TextView facilitySideTx;
     TextView facilityPhoneTx;
     TextView facilityDivisionTx;
-
-
+    TextView facilityCernerHubTx;
 
 
     @Override
@@ -30,6 +27,7 @@ public class FacilityInfo extends AppCompatActivity {
         facilitySideTx = (TextView) findViewById(R.id.facilityAlignment);
         facilityPhoneTx = (TextView) findViewById(R.id.facilityPhone);
         facilityDivisionTx = (TextView) findViewById(R.id.facilityDivision);
+        facilityCernerHubTx = (TextView) findViewById(R.id.cernerHub);
         Intent myIntent = getIntent();
         String facilityName = myIntent.getStringExtra("facilityName");
         String facilityId = myIntent.getStringExtra("facilityId");
@@ -37,6 +35,7 @@ public class FacilityInfo extends AppCompatActivity {
         String facilitySide = myIntent.getStringExtra("facilitySide");
         String facilityPhone = myIntent.getStringExtra("phone");
         String facilityDivision = myIntent.getStringExtra("facilityDivision");
+        String facilityCernerHub = myIntent.getStringExtra("cernerHub");
 
         facilityInfoTx.setText(facilityName);
         facilityIdTx.setText("Site Code: " + facilityId);
@@ -44,8 +43,9 @@ public class FacilityInfo extends AppCompatActivity {
         facilitySideTx.setText(facilitySide);
         facilityPhoneTx.setText("Phone: " + facilityPhone);
         facilityDivisionTx.setText("Division: " + facilityDivision);
+        facilityCernerHubTx.setText("CernerHub: " + facilityCernerHub);
 
 
-        Log.d("Facilityapp","This city is " + facilityName);
+        Log.d("Facilityapp", "This city is " + facilityName);
     }
 }

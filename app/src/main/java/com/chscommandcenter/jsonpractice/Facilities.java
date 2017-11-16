@@ -6,10 +6,9 @@ package com.chscommandcenter.jsonpractice;
 
 public class Facilities {
 
-    private String division,title,entity,address,city,state,zip,phone,website,intranet,emails,cernerhub,side;
+    private String division, title, entity, address, city, state, zip, phone, website, intranet, emails, cernerhub, side;
 
-    public Facilities(String division,String title,String entity,String address,String city,String state,String zip,String phone,String website,String intranet,String emails,String cernerhub,String side)
-    {
+    public Facilities(String division, String title, String entity, String address, String city, String state, String zip, String phone, String website, String intranet, String emails, String cernerhub, String side) {
         this.setDivision(division);
         this.setTitle(title);
         this.setEntity(entity);
@@ -120,7 +119,8 @@ public class Facilities {
     public void setSide(String side) {
         this.side = side;
     }
-    public String getTitle(){
+
+    public String getTitle() {
         return title;
     }
 
