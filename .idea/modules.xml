@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Jsonpractice.iml" filepath="$PROJECT_DIR$/Jsonpractice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myeccapp/app.iml" filepath="$PROJECT_DIR$/myeccapp/app.iml" />
     </modules>
   </component>
 </project>
