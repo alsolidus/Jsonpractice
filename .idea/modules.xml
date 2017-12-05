@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Jsonpractice.iml" filepath="$PROJECT_DIR$/Jsonpractice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/myeccapp/app.iml" filepath="$PROJECT_DIR$/myeccapp/app.iml" />
+      <module fileurl="file://C:\Users\dubosew\AndroidStudioProjects\Jsonpractice\myeccapp\app.iml" filepath="C:\Users\dubosew\AndroidStudioProjects\Jsonpractice\myeccapp\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myeccapp/myeccapp.iml" filepath="$PROJECT_DIR$/myeccapp/myeccapp.iml" />
     </modules>
   </component>
 </project>

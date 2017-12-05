@@ -18,7 +18,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".DisplayListView" />
-        <activity android:name=".FacilityInfo"></activity>
+        <activity android:name=".FacilityInfo" />
+        <activity
+            android:name="chatapp.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name="chatapp.MainChatActivity" />
+        <activity android:name="chatapp.RegisterActivity"></activity>
     </application>
 
 </manifest>

@@ -26,6 +26,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void incUpdate(View view){
+        Intent myintent = new Intent(this, chatapp.LoginActivity.class);
+        startActivity(myintent);
+    }
+
     public void getjson(View view) {
         new BackgroundTask().execute();
     }
