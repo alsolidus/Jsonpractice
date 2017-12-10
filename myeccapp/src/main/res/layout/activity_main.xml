@@ -74,7 +74,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="26dp"
         android:onClick="incUpdate"
-        android:text="Active Major Incident Updates"
+        android:text="CHAT WITH ECC"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
 </RelativeLayout>
